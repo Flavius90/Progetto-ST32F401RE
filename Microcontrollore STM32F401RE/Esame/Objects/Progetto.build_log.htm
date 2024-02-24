@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Flavio Della Calce, Flavio, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14.1
+Assembler:       Armasm.exe V6.14.1
+Linker/Locator:  ArmLink.exe V6.14.1
+Library Manager: ArmAr.exe V6.14.1
+Hex Converter:   FromElf.exe V6.14.1
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Flavi\OneDrive\Desktop\Nuova cartella\Progetto.uvprojx
+Project File Date:  05/10/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f401xe.s...
+Progetto.c(345): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                                                printstring("Il segnale selezionato non <E8> attualmente attivo.\n\n");
+                                                                                                        ^~~~
+Progetto.c(356): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                                                        printstring("Il segnale selezionato non <E8> attualmente attivo.\n\n");
+                                                                                                                ^~~~
+Progetto.c(367): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                                                printstring("Il segnale selezionato non <E8> attualmente attivo.\n\n");
+                                                                                                        ^~~~
+Progetto.c(378): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                                                        printstring("Il segnale selezionato non <E8> attualmente attivo.\n\n");
+                                                                                                                ^~~~
+Progetto.c(605): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printstring("L'ID del microcontrollore <E8> :\n");
+                                               ^~~~
+Progetto.c(651): warning: format string contains '\0' within the string body [-Wformat]
+        sprintf(point, "\n \n \0");
+                       ~~~~~~~^~~
+Progetto.c(750): warning: no newline at end of file [-Wnewline-eof]
+//
+  ^
+7 warnings generated.
+compiling Progetto.c...
+linking...
+Program Size: Code=7600 RO-data=2444 RW-data=32 ZI-data=1040  
+FromELF: creating hex file...
+".\Objects\Progetto.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.0.pack
+                Keil.STM32F4xx_DFP.2.17.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Flavi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
